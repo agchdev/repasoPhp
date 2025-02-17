@@ -62,6 +62,7 @@
             echo "<p>error</p>";
         }
     ?>
+    <h2>8. Número del DNI (8 números, con letra final mayúscula).</h2>
     <?php
         /**
          *  
