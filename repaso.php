@@ -61,8 +61,18 @@
         }else{
             echo "<p>error</p>";
         }
-
-        $patron2 = "'^(?=(.*[0-9]){2,})(?=.*[A-Z])(?=(.*[\W_]){3,}).{8,20}$'"
+    ?>
+    <?php
+        /**
+         *  
+         */
+        $cadena2 = "12312312V";
+        $patron = "'^[0-9]{8}[A-Z]{1}$'";
+        if(preg_match($patron, $cadena2)){
+            echo "<p>Válida</p>";
+        }else{
+            echo "<p>error</p>";
+        }
     ?>
 </body>
 </html>
