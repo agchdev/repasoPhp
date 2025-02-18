@@ -25,7 +25,7 @@
             echo "<p>error</p>";
         }
     ?>
-    <h2>9. Contraseña (al menos seis caracteres, debe contener</h2>
+    <h2>9. Contraseña al menos seis caracteres, debe contener</h2>
     <h2>a. Debe tener entre 8 y 20 caracteres.</h2>
     <h2>b. Debe contener al menos 2 números (no tienen que ser consecutivos).</h2>
     <h2>c. Debe contener al menos 1 letra mayúscula y 3 caracteres especiales (no consecutivos).</h2>
