@@ -12,5 +12,15 @@
         <input type="text" name="contraseña">
         <input type="submit" name="action" value="validarUsu">
     </form>
+    <?php
+        $caca = new DateTime();
+        echo $caca->format('Y-m-d H:m:s');
+
+        $caca->modify('+1 year');
+        echo "<br>".$caca->format('Y-m-d H:m:s');
+        
+        $caca->modify('+1 year');
+        echo "<br>".$caca->format('Y-m-d H:m:s');
+    ?>
 </body>
 </html>
