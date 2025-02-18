@@ -21,6 +21,16 @@
         
         $caca->modify('+1 year');
         echo "<br>".$caca->format('Y-m-d H:m:s');
+
+        $tlf = "+34 615895895";
+        $tlf = trim($tlf);
+        echo "<br>".$tlf;
+        $patron2 = "'^\+([0-9]{2})\s*[6-9]([0-9]{8})$'";
+        if(preg_match($patron2, $tlf)){
+            echo "<br>fufa";
+        }else{
+            echo "<br>no fufa";
+        }
     ?>
 </body>
 </html>
